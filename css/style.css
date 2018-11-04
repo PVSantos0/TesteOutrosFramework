@@ -1,0 +1,54 @@
+body{
+	height: 100%;
+}
+
+h3{
+	margin-left:  100px;
+}
+.warpper{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: 40px 650px 40px;
+}
+
+.warpper-1{
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: 40px 10px 40px;
+}
+
+.grid-10{
+	grid-column: span 10;
+}
+
+.grid-6{
+	grid-column: span 6;
+}
+
+.grid-5{
+	grid-column: span 5;
+}
+
+.grid-4{
+	grid-column: span 4;
+}
+
+.grid-3{
+	grid-column: span 3;
+}
+
+.grid-2{
+	grid-column: span 2;
+}
+
+.grid-1{
+	grid-column: span 1;
+}
+
+.margem{
+	margin-top: 300px;
+}
+
+.cor{
+	background-color:#99ccff;
+}

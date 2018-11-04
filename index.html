@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Good Travel</title>
+		<link rel="shortcut icon" href="img/indice.png" type="image/x-icon"/>
+		<!--Google Icon Font-->
+      	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Pure -->
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+		<!-- Materialize CSS -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<!-- meu css -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!-- Pure  navbar-->
+		<div class='warpper-1'>
+			<div class='grid-5 cor'>
+				<div class="pure-menu pure-menu-horizontal">
+				    <a class="pure-menu-heading pure-menu-link">Good Travel</a>
+				    <ul class="pure-menu-list">
+				    	
+				    	<!-- Dropdown-->
+				    	<li class="pure-menu-item"><a href="#" class="pure-menu-link dropdown-trigger" data-target='dropdown1'>	Viagens</a></li>
+						
+						<!-- Dropdown Esturtura -->
+						<ul id='dropdown1' class='dropdown-content'>
+							<li><a href="#!">Curitiba</a></li>
+						    <li><a href="#!">Brasilia</a></li>
+						    <li class="divider" tabindex="-1"></li>
+						    <li><a>Europa</a></li>
+						    <li><a href="#!">Portugal</a></li>
+						</ul>
+
+				        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Noticias</a></li>
+				        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sobre</a></li>
+				        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contato</a></li>
+				    </ul>
+				</div>
+			</div>
+			<div class='grid-4 cor'></div>
+			<form class="pure-form grid-3 cor">
+				    <fieldset>
+				        <input type="src" placeholder="Pesquise">
+				        <button type="src" class="pure-button pure-button-primary">Pesquisar</button>
+				    </fieldset>
+			</form>
+		</div>
+
+		<!-- Materialize cards -->
+		<div class="warpper">
+			<div class="grid-1"></div>
+		   
+		    <div class="grid-5">
+		      	<div class="card">
+			        <div class="card-image">
+				        <img src="img/sample-1.jpg">
+				        <span class="card-title">Curitiba</span>
+			        </div>
+			        <div class="card-content">
+				        <p>Pode ser seu próximo destino.</p>
+			        </div>
+			        <div class="card-action">
+			         	<a href="#">Mais informações</a>
+				    </div>
+			    </div>
+			</div>
+
+		    <div class="grid-5">
+		      	<div class="card">
+			        <div class="card-image">
+				        <img src="img/sample-2.jpg">
+				        <span class="card-title">Portugal</span>
+			        </div>
+			        <div class="card-content">
+				    	<p>Pode ser seu próximo destino.</p>
+			        </div>
+			        <div class="card-action">
+			        	<a href="#">Mais informações</a>
+				    </div>
+			    </div>
+			</div>
+
+			<div class="grid-1"></div>
+		</div>
+
+        <!-- Materialize Carousel -->
+		<h3>Crie outras recordações como eles:</h3>
+		<div class="divider" tabindex="-1"></div>
+        <div class="warpper-1">
+			<div class="grid-1"></div>
+	        <div class="grid-10">	
+		        <div class="carousel">
+		        	<a class="carousel-item"><img class='materialboxed'src="img/1.jpg"></a>
+		    		<a class="carousel-item"><img class='materialboxed'src="img/2.jpeg"></a>
+		    		<a class="carousel-item"><img class='materialboxed'src="img/3.jpg"></a>
+		   			<a class="carousel-item"><img class='materialboxed'src="img/4.jpg"></a>
+		   			<a class="carousel-item"><img class='materialboxed'src="img/5.jpeg"></a>
+				</div>
+	        </div>
+			<div class="grid-1"></div>
+		</div>
+		
+		<!-- texto -->
+		<div class="warpper-1 margem">
+			<div class="grid-1"></div>
+			<div class='grid-4 caixa'>
+				<h4>Sua data de ida</h2>
+			</div>
+			<div class="grid-2"></div>
+			<div class='grid-4 caixa-1'>
+				<h4>Sua data de volta</h2>
+			</div>
+			<div class="grid-1"></div>
+		</div>
+	  	<div class="divider" tabindex="-1"></div>
+		<!-- Materialize entrada data -->
+		<div class="warpper-1">
+			<div class="grid-1"></div>
+			<div class='grid-4 caixa'>
+				<input type="text" class="datepicker">
+			</div>
+			<div class="grid-2"></div>
+			<div class='grid-4 caixa-1'>
+				<input type="text" class="datepicker">
+			</div>
+			<div class="grid-1"></div>
+		</div>
+	  	
+
+	  	<!-- texto -->
+		<div class="warpper-1">
+			<div class="grid-1"></div>
+			<div class='grid-4 caixa'>
+				<h4>Sua hora de ida</h2>
+			</div>
+			<div class="grid-2"></div>
+			<div class='grid-4 caixa-1'>
+				<h4>Sua hora de volta</h2>
+			</div>
+			<div class="grid-1"></div>
+		</div>
+	  	<div class="divider" tabindex="-1"></div>
+	  	<!-- Materialize entrada hora -->
+		<div class="warpper-1">
+			<div class="grid-1"></div>
+			<div class='grid-4 caixa'>
+				<input type="text" class="timepicker">
+			</div>
+			<div class="grid-2"></div>
+			<div class='grid-4 caixa-1'>
+				<input type="text" class="timepicker">
+			</div>
+			<div class="grid-1"></div>
+		</div>  
+
+		<footer class="cor" style="margin-top: 50px">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Good Travel</h5>
+                <p class="grey-text text-lighten-4"></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Concorrência</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Booking</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Trivago</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 5656 Copyright Text
+            </div>
+          </div>
+        </footer>
+
+		<!-- Javascript JQuey 3.3.1-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<!-- JavaScript Materialize -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!-- meu js -->
+		<script type="text/javascript" src='js/main.js'></script>
+	</body>
+</html>
